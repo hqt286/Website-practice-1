@@ -1,0 +1,67 @@
+body 
+{
+    background-color: #272727;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.Container
+{
+    width: 60%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#MainHeader
+{   
+    text-align: center;
+}
+
+#NavigationMenu
+{
+    background-image: url('BackGroundMenu.JPG')
+}
+
+#NavigationMenu ul /*unorder list */
+{
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+#NavigationMenu li /*list item*/
+{
+    display: inline;
+    font-size: 20px;
+}
+
+#NavigationMenu li:nth-child(1) /*list item*/
+{
+    text-decoration: underline;
+}
+
+#NavigationMenu a
+{
+    text-decoration: none; /*this is to erase underline*/
+    font-size: 18 px;
+    padding-right: 15px;
+    color: black;
+}
+
+#NavigationMenu a:hover
+{
+    color: rgb(143, 143, 143);
+}
+
+#MainBody
+{
+    text-align: left;
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+}
